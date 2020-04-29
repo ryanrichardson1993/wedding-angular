@@ -10,6 +10,7 @@ import { PhotosComponent } from './photos/photos.component';
 import { OosComponent } from './oos/oos.component';
 import { ContactComponent } from './contact/contact.component';
 import { DateTimeComponent } from './date-time/date-time.component';
+import { CoronavirusComponent } from './coronavirus/coronavirus.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { DateTimeComponent } from './date-time/date-time.component';
     PhotosComponent,
     OosComponent,
     ContactComponent,
-    DateTimeComponent
+    DateTimeComponent,
+    CoronavirusComponent
   ],
   imports: [
     BrowserModule

@@ -16,7 +16,7 @@ p, h1, h2, h3 {
   font-family: Verdana, Geneva, sans-serif;
 }
 
-a {
+.link {
   color: blue;
   font-family: Verdana, Geneva, sans-serif;
   text-decoration: none;
@@ -71,4 +71,25 @@ h3 {
 
 .link-container {
   margin: 20px 0;
+}
+
+button {
+  border-radius: 30px;
+  border-style: solid;
+  padding: 15px 20px 15px 20px;
+  font-size: 16px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.box-1 button {
+  background: var(--grey-colour-scheme);
+  border-color: var(--grey-colour-scheme);
+}
+
+.box-2 button {
+  background: var(--pink-colour-scheme);
+  border-color: var(--pink-colour-scheme);
 }
